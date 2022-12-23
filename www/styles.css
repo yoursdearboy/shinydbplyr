@@ -1,0 +1,37 @@
+.modal-dialog.modal-dialog-scrollable {
+    overflow-y: initial !important
+}
+
+.modal-dialog.modal-dialog-scrollable .modal-body{
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-footer-left > * {
+  float: left;
+}
+
+.join-modal .modal-dialog {
+  width: 700px;
+}
+
+.join-target {
+  display: inline-block;
+  width: 200px;
+}
+
+.join-by {
+  display: inline-block;
+  width: 200px;
+}
+
+.join-as {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+}
+
+.join-delete {
+  display: inline-block;
+  vertical-align: top;
+}
